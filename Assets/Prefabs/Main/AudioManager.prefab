@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6065834901081513719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6065834901081513717}
+  - component: {fileID: 6065834901081513716}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6065834901081513717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065834901081513719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6065834901081513716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065834901081513719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf355a67183735438c3e1fbbfc352ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: ee60a79c5c5424e45813c06e6e315f47, type: 3}
+    volume: 0.5
+    pitch: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: GameplayMusic
+    clip: {fileID: 8300000, guid: ea0df3c3884da4b47b409b6e1e30d3e9, type: 3}
+    volume: 0.5
+    pitch: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: Player_Walk
+    clip: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+    volume: 0.2
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Player_Attack
+    clip: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+    volume: 1
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Player_Jump
+    clip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+    volume: 1
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Player_Dash
+    clip: {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
+    volume: 0.5
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Player_Damage
+    clip: {fileID: 8300000, guid: b9eff218e132a4e76be78840eca96fb2, type: 3}
+    volume: 0.8
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Player_Death
+    clip: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
+    volume: 0.8
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Arrow_Shot
+    clip: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
+    volume: 0.5
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Target_Hit
+    clip: {fileID: 8300000, guid: d8d04c6f80a1140db85ede568dab1f51, type: 3}
+    volume: 1
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: UI_Click
+    clip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+    volume: 1
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Stage_Complete
+    clip: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
+    volume: 1
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
