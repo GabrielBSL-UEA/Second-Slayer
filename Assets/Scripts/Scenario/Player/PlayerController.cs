@@ -222,13 +222,6 @@ public class PlayerController : MonoBehaviour
         */
     }
 
-    private IEnumerator SetLockUnlockStateOverTime(float duration)
-    {
-        LockPlayer();
-        yield return new WaitForSeconds(duration);
-        UnlockPlayer();
-    }
-
     private IEnumerator StartDeathSequence(float duration)
     {
         IsAlive = false;
@@ -247,7 +240,7 @@ public class PlayerController : MonoBehaviour
         GameController.Instance.RestartStage();
     }
 
-    private void LockPlayer()
+    public void LockPlayer()
     {
         LockInputs = true;
         playerMovement.Lock = true;
@@ -257,7 +250,7 @@ public class PlayerController : MonoBehaviour
     }
 
     //Animation Call
-    private void UnlockPlayer()
+    public void UnlockPlayer()
     {
         playerMovement.Lock = false;
         PlayerAnimation.SetCommonAnimationCycle();

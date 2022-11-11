@@ -35,7 +35,6 @@ public class PlayerAnimation : MonoBehaviour
     private enum AnimationCycle
     {
         walking,
-        wallClimbing,
         none
     }
 
@@ -69,6 +68,11 @@ public class PlayerAnimation : MonoBehaviour
     //Verifica a direção por onde o jogador está se movento e gira o personagem para tal direção
     private void RotateObject()
     {
+        if(currentAnimationCycle == AnimationCycle.none)
+        {
+            return;
+        }
+
         if (controller.MovementBuffer.x > .1f && !IsRight)
         {
             IsRight = true;

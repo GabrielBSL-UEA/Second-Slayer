@@ -5,6 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour, IHittable
 {
     [SerializeField] private List<AttackType> vulnerability;
+    [SerializeField] private GameObject destroyPS;
 
     private void Start()
     {
@@ -19,6 +20,9 @@ public class Target : MonoBehaviour, IHittable
         }
 
         GameController.Instance.RemoveTarget();
+        var destroyEffect = Instantiate(destroyPS, transform.position, Quaternion.identity);
+        destroyEffect.SetActive(true);
+
         Destroy(gameObject);
     }
 }

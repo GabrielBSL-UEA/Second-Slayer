@@ -49,8 +49,12 @@ public class GameInterface : MonoBehaviour
 
     public void UpdateTimeText(float value)
     {
-        timeText.text = value.ToString();
+        if(timeText == null)
+        {
+            return;
+        }
 
+        timeText.text = value.ToString();
         timeText.color = value <= 3 ? Color.red : Color.white;
     }
 

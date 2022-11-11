@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 379ec4bb0197d6b438f6a244fe2447d4
+guid: c7c977eaf7c729c40a8e3aa8ed90a9ba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,10 +128,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spike_0
+      name: spike_left_0
       rect:
         serializedVersion: 2
-        x: 90
+        x: 99
         y: 80
         width: 130
         height: 130
@@ -140,13 +140,13 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -65, y: -65}
-        - {x: 0, y: 65}
-        - {x: 65, y: -65}
+      - - {x: -65, y: 0}
+        - {x: 65, y: 55}
+        - {x: 65, y: -55}
       tessellationDetail: 0
       bones: []
-      spriteID: d2d2f812e14ceb84cabbde1e42d46a4f
-      internalID: 2109707711
+      spriteID: 312380750bcb30949aa9bceb143d8ad9
+      internalID: -5893685
       vertices: []
       indices: 
       edges: []
@@ -162,7 +162,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spike_0: 2109707711
+      spike_left_0: -5893685
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

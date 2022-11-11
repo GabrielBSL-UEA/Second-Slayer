@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 3417369115
     locked: 0
+  - name: WorldCanvas
+    uniqueID: 1107174467
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

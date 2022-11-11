@@ -23,9 +23,10 @@ public class GameController : MonoBehaviour
     private bool countdownStarted;
     public Action onStageStart;
 
-    private PlayerController player;
+    public PlayerController Player { get; private set; }
 
     public float TotalTime { get; private set; }
+    public bool CanCountdown { get; set; } = true;
 
     private void Awake()
     {
@@ -41,14 +42,14 @@ public class GameController : MonoBehaviour
         TotalTime = 0;
         timeRemaing = 11;
         timeRemaingInt = 11;
-        player = FindObjectOfType<PlayerController>();
+        Player = FindObjectOfType<PlayerController>();
 
         SceneManager.sceneLoaded += SetVariablesOnNewScene;
     }
 
     private void Update()
     {
-        if (!countdownStarted)
+        if (!countdownStarted || !CanCountdown)
         {
             return;
         }
@@ -67,7 +68,7 @@ public class GameController : MonoBehaviour
         if(timeRemaing == 0)
         {
             countdownStarted = false;
-            player.TryGetComponent(out IHittable hittable);
+            Player.TryGetComponent(out IHittable hittable);
             hittable.ReceiveHit(1000, AttackType.melee);
         }
     }
@@ -186,7 +187,7 @@ public class GameController : MonoBehaviour
         timeRemaing = 11;
         timeRemaingInt = 11;
         countdownStarted = false;
-        player = FindObjectOfType<PlayerController>();
+        Player = FindObjectOfType<PlayerController>();
         EnableActionSubscriptionsAndMusic();
         onPointsUpdate?.Invoke(CurrentPonts);
     }

@@ -9,8 +9,35 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 98d159cb1914d4345bbc2782b9eb1377
   - enabled: 1
-    path: Assets/Scenes/LevelExample.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level1.unity
+    guid: e7ed85670f6169b42b503f412bb7590c
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 58a7659e0b8f02b4cb56cba95f8eea6c
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 4ead6161dbd08ed42bd11bde6882b5f0
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: c8d69bf9104942b489fe2d92badae1c7
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 8fcdb5854995b7c48957f770d1bdd475
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 091357917cb69864391afa708f0e9fdb
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 02e78f104c374534e9430d7e7fc61dd6
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: d2fe2d532d6ee084dba47baee8c66d5f
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: 3f13f8bb4de794b4cbca112f1db1c79a
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 27ebea2eabf60e74dbc738e5d31eea7c
   - enabled: 1
     path: Assets/Scenes/VictoryScene.unity
     guid: 67d567d98358f3149b50091bffe11080
