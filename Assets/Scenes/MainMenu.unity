@@ -219,7 +219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Alairton
+  m_text: Alairton H. A da Silva
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c824030357520408987975053ab871, type: 2}
   m_sharedMaterial: {fileID: -5092683438523434585, guid: a2c824030357520408987975053ab871, type: 2}
@@ -671,9 +671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Clairon
-
-'
+  m_text: Clairon Lima Pinheiro
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c824030357520408987975053ab871, type: 2}
   m_sharedMaterial: {fileID: -5092683438523434585, guid: a2c824030357520408987975053ab871, type: 2}
@@ -10859,7 +10857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gabriel Barroso
+  m_text: Gabriel Barroso da Silva Lima
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c824030357520408987975053ab871, type: 2}
   m_sharedMaterial: {fileID: -5092683438523434585, guid: a2c824030357520408987975053ab871, type: 2}
@@ -12132,7 +12130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jorge
+  m_text: Jorge Daniel O. Brito
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c824030357520408987975053ab871, type: 2}
   m_sharedMaterial: {fileID: -5092683438523434585, guid: a2c824030357520408987975053ab871, type: 2}
@@ -12305,7 +12303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Diogo
+  m_text: Diogo Rafael da Silva
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c824030357520408987975053ab871, type: 2}
   m_sharedMaterial: {fileID: -5092683438523434585, guid: a2c824030357520408987975053ab871, type: 2}
